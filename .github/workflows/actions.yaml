@@ -2,7 +2,7 @@ name: Daily Weather Notice
 
 on:
   schedule:
-    - cron: '0 21 * * *'  # 日本時間で朝6時 (UTC 21:00)
+    - cron: '30 19 * * *'  # 日本時間で朝6時 (UTC 21:00)
   workflow_dispatch:  # 手動実行用
 
 jobs:
