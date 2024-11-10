@@ -36,7 +36,7 @@ def get_weather_info(city=130010):
         max_prob = 0
         max_time = ""
         for time, prob in rain_probs.items():
-            prob_value = int(prob) if prob != '-' else 0
+            prob_value = int(prob) if prob != '--' else 0
             if prob_value > max_prob:
                 max_prob = prob_value
                 max_time = time
